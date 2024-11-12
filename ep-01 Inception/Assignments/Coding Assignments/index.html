@@ -8,11 +8,17 @@
 <body>
 
     <!-- Build your first Hello World program using,
-        ○ Using just HTML -->
+        ○ Using just Javascript -->
     
-    <div id="root">
-        <h1>Hello World!</h1>
-    </div>
+    <div id="root"></div>
+
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello World from Javascript!";
+
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script>
 
 </body>
 </html>
