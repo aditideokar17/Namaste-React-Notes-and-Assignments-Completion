@@ -1,0 +1,11 @@
+{
+  "name": "source-code",
+  "version": "1.0.0",
+  "description": "igniting our app ep-02",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Aditi Deokar",
+  "license": "ISC"
+}
