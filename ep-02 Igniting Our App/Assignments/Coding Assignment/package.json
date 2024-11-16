@@ -9,6 +9,7 @@
   "author": "Aditi Deokar",
   "license": "ISC",
   "dependencies": {
+    "parcel": "^2.13.0",
     "react-dom": "^18.3.1",
     "rect": "^1.2.1"
   }
