@@ -1,3 +1,5 @@
 /node_modules
 /dist
 .parcel-cache
+
+# Added Regenrated files here that we don't need to add on github
