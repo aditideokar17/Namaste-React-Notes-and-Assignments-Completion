@@ -2,7 +2,6 @@
   "name": "coding-assignment",
   "version": "1.0.0",
   "description": "Coding Assignment",
-  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
