@@ -1,3 +1,45 @@
 *{
-    color: cadetblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+
+}
+
+#logo{
+    color: red;
+    font-size:2rem;
+}
+
+#searchbar{
+height: 30px;
+width: 300px;
+background-color: antiquewhite;
+}
+
+#searchbar input{
+    height: 100%;
+    width: 100%;
+}
+
+#searchbar button{
+    margin-left: -45px;
+    height: 100%;
+    width: 45px;
+}
+
+#user{
+    height: 60px;
+    width: 60px;
+}
+
+#user img{
+    width: 100%;
+    height: 100%;
 }
