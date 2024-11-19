@@ -6,10 +6,17 @@ import ReactDOM from "react-dom/client";
 // React Element
 const heading = React.createElement("h1",{},"This is React Element");
 
-//JSX in multiple lines
-const jsxHeading = (<h1 id="heading">
-    This heading from JSX
+//React Functional Components
+const HeadingComponent1 = () =>{
+    return <h1>Heading from React Functional Component</h1>
+}
+
+const HeadingComponent2 = () => <h1>Heading from React Functional Component</h1>;
+
+const HeadingComponent3 = () => (<h1>
+    Heading from React Functional Component
     </h1>);
+
 
 
 
@@ -19,4 +26,4 @@ const root = ReactDOM.createRoot(
     document.getElementById("root")
 );
 
-root.render(jsxHeading);
+root.render(<HeadingComponent/>);
