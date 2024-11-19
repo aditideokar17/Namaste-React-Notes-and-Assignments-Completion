@@ -1,0 +1,21 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "ep-03 Laying the Foundations",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "Aditi Deokar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
