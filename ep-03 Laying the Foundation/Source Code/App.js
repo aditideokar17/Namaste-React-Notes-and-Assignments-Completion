@@ -24,6 +24,15 @@ const HeadingComponent4 = () =>(
     </div>
 );
 
+//Component Compositions
+const Title = () => <h1>Title Component</h1>;
+
+const Heading = () =>(
+    <div>
+        <h1>Heading</h1>
+        <Title/>
+    </div>
+);
 
 
 // Rendering in react
@@ -31,4 +40,6 @@ const root = ReactDOM.createRoot(
     document.getElementById("root")
 );
 
-root.render(<HeadingComponent4/>);
+
+
+root.render(<Heading/>);
