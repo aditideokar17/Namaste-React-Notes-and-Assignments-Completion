@@ -53,3 +53,22 @@ const Header = () =>{
         </div>
     )
 } -->
+
+# Task - 05
+<!-- 
+Composition of Component(Add a component inside another)
+
+const Logo = () =>(
+    <h1>Aditi Deokar</h1>
+);
+
+const Header = () =>{
+    return(
+        <div id="title" className="div-color">
+        <h1>heading1</h1>
+        <h2>heading2</h2>
+        <h3>heading3</h3>
+        <Logo/>
+        </div>
+    )
+} -->
