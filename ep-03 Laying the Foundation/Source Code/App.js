@@ -17,7 +17,12 @@ const HeadingComponent3 = () => (<h1>
     Heading from React Functional Component
     </h1>);
 
-
+//Nested JSX
+const HeadingComponent4 = () =>(
+    <div>
+        <h1>Nested JSX Element</h1>
+    </div>
+);
 
 
 
