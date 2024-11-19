@@ -6,8 +6,10 @@ import ReactDOM from "react-dom/client";
 // React Element
 const heading = React.createElement("h1",{},"This is React Element");
 
-//JSX
-const jsxHeading = <h1>This heading from JSX</h1>
+//JSX in multiple lines
+const jsxHeading = (<h1 id="heading">
+    This heading from JSX
+    </h1>);
 
 
 
@@ -17,4 +19,4 @@ const root = ReactDOM.createRoot(
     document.getElementById("root")
 );
 
-root.render(heading);
+root.render(jsxHeading);
