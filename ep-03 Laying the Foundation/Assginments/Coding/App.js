@@ -1,19 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// Composition of Component(Add a component inside another)
+// {TitleComponent} vs {<TitleComponent/>} vs
+// {<TitleComponent></TitleComponent>} in JSX
 
-const Logo = () =>(
-    <h1>Aditi Deokar</h1>
+const titleElem = (
+    <h1>title React Element</h1>
 );
+
+const TitleComponent = () =>(
+    <h1>Title React Component</h1>
+)
 
 const Header = () =>{
     return(
-        <div id="title" className="div-color">
-        <h1>heading1</h1>
-        <h2>heading2</h2>
-        <h3>heading3</h3>
-        <Logo/>
+        <div>
+        <h1>{titleElem}</h1>
+        <h2><TitleComponent/></h2>
+        <h3><TitleComponent></TitleComponent></h3>
         </div>
     )
 }
