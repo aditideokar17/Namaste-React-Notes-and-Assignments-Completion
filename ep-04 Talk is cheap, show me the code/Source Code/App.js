@@ -45,7 +45,17 @@ const Header = () =>{
 };
 
 // Restaurent Card
-
+const RestaurentCard = () =>{
+    return(
+        <div className="res-card">
+        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/hjao7sorzggaeqito6au" />
+        <h3>Meghana Foods</h3>
+        <h4>Biryani, North Indian</h4>
+        <h4>4.5 stars</h4>
+        <h4>20 Minutes</h4>
+        </div>
+    );
+};
 
 
 // Body Component
@@ -53,10 +63,20 @@ const Body = () =>{
     return(
         <div className="body">
             <div className="search">
-
+            <input className="search-input" placeholder="search" />
+            <button className="search-btn">search</button>
             </div>
 
             <div className="res-container">
+                <RestaurentCard/>
+                <RestaurentCard/>
+                <RestaurentCard/>
+                <RestaurentCard/>
+                <RestaurentCard/>
+                <RestaurentCard/>
+                <RestaurentCard/>
+                <RestaurentCard/>
+                <RestaurentCard/>
                 <RestaurentCard/>
             </div>
         </div>

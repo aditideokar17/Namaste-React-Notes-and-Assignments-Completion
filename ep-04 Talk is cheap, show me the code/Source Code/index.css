@@ -43,3 +43,58 @@
 }
 
 /* Body Component */
+
+.body{
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.search{
+    margin: 10px;
+    text-align: center;
+}
+
+.search-input{
+    width: 200px;
+    height: 25px;
+}
+
+.search-btn{
+    width: 80px;
+    height:31px;
+}
+
+.res-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/* Restaurent Card */
+
+.res-card{
+    width: 220px;
+    height: 280px;
+    margin-top: 12px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.res-card img{
+    width: 98%;
+    height: 39%;
+}
+
+.res-card h4{
+    margin-top: -10px;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+
