@@ -44,12 +44,32 @@ const Header = () =>{
     );
 };
 
+// Restaurent Card
+
+
+
+// Body Component
+const Body = () =>{
+    return(
+        <div className="body">
+            <div className="search">
+
+            </div>
+
+            <div className="res-container">
+                <RestaurentCard/>
+            </div>
+        </div>
+    );
+};
+
 
 //AppLayout Component
 const AppLayout = () =>{
     return(
         <div className="app">
         <Header/>
+        <Body/>
         </div>
     );
 };
