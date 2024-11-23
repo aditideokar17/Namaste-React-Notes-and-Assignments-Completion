@@ -1,0 +1,45 @@
+
+/* Header Component */
+.header{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container{
+    width: 130px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.nav-items{
+    margin-right: 20px;
+}
+
+.nav-items ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    gap: 20px;
+}
+
+.nav-items ul li{
+    font-size: 18px;
+}
+
+.nav-items ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* Body Component */
