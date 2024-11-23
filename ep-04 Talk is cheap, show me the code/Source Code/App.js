@@ -949,7 +949,7 @@ const Body = () =>{
                 {/* Map function */}
                 {
                     resList.map((res) =>
-                     <RestaurentCard resData = {res}/>)
+                     <RestaurentCard key={res.info.id} resData = {res}/>)
                 }
             </div>
         </div>
