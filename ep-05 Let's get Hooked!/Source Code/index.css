@@ -73,6 +73,24 @@
     padding: 10px;
 }
 
+.top-rated-res{
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+}
+
+.top-rated-btn{
+    padding: 6px;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.top-rated-btn:hover{
+    background-color: aqua;
+}
+
 /* Restaurent Card */
 
 .res-card{
