@@ -1,6 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState, useEffect } from "react";
-
+import Shimmer from "./Shimmer";
 
 // Body Component
 const Body = () =>{
@@ -24,8 +24,8 @@ const Body = () =>{
         setListOfRestaurant(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
     }
 
-
-    return(
+    // Conditional Rendering
+    return listOfRestaurant.length === 0 ? <Shimmer/> : (
         <div className="body">
             <div className="search">
             <input className="search-input" placeholder="search" />

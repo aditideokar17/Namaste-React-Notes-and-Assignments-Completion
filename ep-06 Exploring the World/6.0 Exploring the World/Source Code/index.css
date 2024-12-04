@@ -115,5 +115,22 @@
     border: 1px solid black;
 }
 
+/* Shimmer ui */
 
+.shimmer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
 
+.shimmer-card{
+    width: 220px;
+    height: 350px;
+    margin-top: 12px;
+    object-fit: cover;
+    padding: 5px;
+    background: lightgray;
+}
