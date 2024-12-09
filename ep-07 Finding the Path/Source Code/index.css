@@ -1,0 +1,136 @@
+
+/* Header Component */
+.header{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container{
+    width: 130px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.nav-items{
+    margin-right: 20px;
+}
+
+.nav-items ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    padding: 12px;
+    gap: 20px;
+}
+
+.nav-items ul li{
+    font-size: 18px;
+}
+
+.nav-items ul li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+/* Body Component */
+
+.body{
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.search{
+    margin: 10px;
+    text-align: center;
+}
+
+.search-input{
+    width: 200px;
+    height: 25px;
+}
+
+.search-btn{
+    width: 80px;
+    height:31px;
+}
+
+.res-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.top-rated-res{
+    margin-top: 2rem;
+    margin-left: 3.3rem;
+}
+
+.top-rated-btn{
+    padding: 6px;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.top-rated-btn:hover{
+    background-color: aqua;
+}
+
+/* Restaurent Card */
+
+.res-card{
+    width: 220px;
+    height: 350px;
+    margin-top: 12px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.res-card img{
+    width: 98%;
+    height: 39%;
+}
+
+.res-card h4{
+    margin-top: -10px;
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+/* Shimmer ui */
+
+.shimmer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.shimmer-card{
+    width: 220px;
+    height: 350px;
+    margin-top: 12px;
+    object-fit: cover;
+    padding: 5px;
+    background: lightgray;
+}

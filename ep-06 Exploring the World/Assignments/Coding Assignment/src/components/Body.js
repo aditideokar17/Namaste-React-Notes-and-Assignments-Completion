@@ -65,7 +65,7 @@ const Body = () => {
                 {/* Delivery Time */}
                 <div className="filter-btn-container">
                     <button className="filter-btn" onClick={()=>{
-                        const filteredByDeliveryTime = listOfRestaurants.filter((res)=>res.info.sla.deliveryTime < 50)
+                        const filteredByDeliveryTime = listOfRestaurants.filter((res)=>res.info.sla.deliveryTime < 60)
                         setFilteredRestaurant(filteredByDeliveryTime);
                         setSearchInput("");
                     }}>Delivery Time</button>
