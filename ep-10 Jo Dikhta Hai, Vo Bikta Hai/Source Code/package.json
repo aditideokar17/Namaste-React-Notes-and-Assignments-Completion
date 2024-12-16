@@ -1,0 +1,23 @@
+{
+  "name": "source-code",
+  "version": "1.0.0",
+  "description": "ep-04 namaste react",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "author": "Aditi Deokar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.0",
+    "postcss": "^8.4.49",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.16"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  }
+}
