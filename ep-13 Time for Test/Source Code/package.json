@@ -1,0 +1,35 @@
+{
+  "name": "source-code",
+  "version": "1.0.0",
+  "description": "ep-04 namaste react",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "author": "Aditi Deokar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.13.0",
+    "postcss": "^8.4.49",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.16"
+  },
+  "dependencies": {
+    "@parcel/core": "^2.13.3",
+    "@reduxjs/toolkit": "^2.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.28.0"
+  }
+}
